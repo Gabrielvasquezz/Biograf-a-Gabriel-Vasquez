@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 2000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+:root {
+  --primario: #385e97;
+  --secundario: #7b7b7b;
+  --negro: #000000;
+  --blanco: #ffffff;
+  --azulado: #666e87;
+}
+
+/* --------------
+---- HEADER -----
+--------------- */
+
+.gv-header {
+  background-color: var(--negro);
+  display: flex;
+  justify-content: space-around;
+  color: var(--blanco);
+  width: 100%;
+}
+
+.gv-header__title {
+  margin: 10px;
+}
+
+.gv-header__menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.gv-header__menu_item {
+  font-weight: 700;
+}
+
+/* --------------
+---- PORTADA -----
+--------------- */
+
+.gv-portada {
+  height: 239px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.gv-portada__title {
+  font-size: 72px;
+  color: var(--blanco);
+}
+/* ----------------
+------ SEPARADOR -----
+----------------- */
+.gv-separador-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gv-separador {
+  width: 70%;
+  border-bottom: 3px solid var(--negro);
+  text-align: center;
+}
+
+.gv-separador_general {
+  border-bottom: 3px solid var(--negro);
+}
+
+/* ----------------
+------ INICIO -----
+----------------- */
+.gv-portada-inicio_bg {
+  background-image: url("../images/portadainicio.png");
+}
+
+.gv-inicios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  gap: 50px;
+}
+
+.gv-inicios__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 21px;
+}
+
+.gv-inicios__title {
+  font-size: 64px;
+  width: 200px;
+}
+
+.gv-inicios__title2 {
+  font-size: 40px;
+  font-weight: 500;
+  max-width: 565px;
+}
+
+.gv-inicios__txt {
+  max-width: 560px;
+  font-size: 24px;
+}
+
+/* ----------------
+------ HOBBIES -----
+----------------- */
+.gv-container {
+  width: 1200px;
+}
+.gv-portada-hobbies_bg {
+  background-image: url("../images/portadainicio.png");
+}
+
+.gv-hobbies_title {
+  border-bottom: 3px solid var(--negro);
+  margin-top: 40px;
+}
+
+.gv-hobbies_frase {
+  font-size: 64px;
+  font-weight: 700;
+  max-width: 923px;
+  margin-top: 35px;
+  margin-bottom: 42px;
+}
+
+.gv-hobbies_list {
+  display: flex;
+  flex-direction: column;
+}
+
+.gv-hobbies_list__item {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.gv-hobbies_list__img {
+  width: 570px;
+  height: 392px;
+}
+
+.gv-hobbies_list__txt {
+  font-size: 40px;
+  max-width: 550px;
+}
+
+/* ----------------
+------ FOOTER -----
+----------------- */
+
+.gv-footer {
+  background-image: url("../images/Rectangle\ 2.png");
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.gv-footer__frase {
+  margin-top: 57px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gv-footer__frase_txt {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.gv-footer__bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.gv-footer__bottom_left_name {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.gv-footer__bottom_left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.gv-footer__bottom_left p {
+  max-width: 126px;
+  font-size: 16px;
+}
+
+.gv-footer__bottom_right {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: bold;
+}
